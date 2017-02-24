@@ -3,7 +3,7 @@
 
 ### Usuarios Guardados
 
-El proyecto va con dos usuarios registrados, uno con rol ADMIN y otro USER
+El proyecto va con dos usuarios registrados, uno con rol **ADMIN** y otro **USER**
 
 | Usario   | Password                 | Rol     |
 | -------- | ------------------------ | --------|
@@ -12,6 +12,7 @@ El proyecto va con dos usuarios registrados, uno con rol ADMIN y otro USER
 
 ### Test o Run
 Puerto: **8181**
+Fechas:  **Formato Aceptado** _yyyy-MM-dd_  Ejemplo: *2017-02-01*
 #### Categorías:
 **Listar Todas**
 ```
@@ -51,6 +52,7 @@ http://localhost:8181/v1/inventario/categorias
     http://localhost:8181/v1/reservaciones/2
 ```
   **Haciendo Reservación:**
+  <br>
   _Cuerpo:_
   ```json
     {"desde":"2017-01-17","hasta":"2017-03-18","cuarto":"2","huesped":"2"}
